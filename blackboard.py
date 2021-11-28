@@ -27,7 +27,7 @@ def log_in():
             username = driver.find_element_by_xpath('/html/body/div[2]/div[1]/div/form/div/ul/li[1]/input')
             username.send_keys('18BCS2140')
             password = driver.find_element_by_xpath('/html/body/div[2]/div[1]/div/form/div/ul/li[2]/input')
-            password.send_keys('G%1tBVl7u65fmi')
+            password.send_keys('YOUR_PASSWORD')
             sign_in_button = driver.find_element_by_xpath('/html/body/div[2]/div[1]/div/form/div/ul/li[3]/input')
             sign_in_button.click()
             try:
